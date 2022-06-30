@@ -1,0 +1,20 @@
+content toggleWebComponents chrome/
+style chrome://global/content/customizeToolbar.xul chrome://toggleWebComponents/content/button.css
+
+# Firefox
+overlay	chrome://browser/content/browser.xul chrome://toggleWebComponents/content/button.xul
+
+# Seamonkey
+overlay chrome://navigator/content/navigator.xul chrome://toggleWebComponents/content/button.xul
+
+# Thunderbird mail
+overlay	chrome://messenger/content/messenger.xul chrome://toggleWebComponents/content/button.xul
+
+# Thunderbird compose
+overlay	chrome://messenger/content/messengercompose/messengercompose.xul chrome://toggleWebComponents/content/button.xul
+
+# Thunderbird address book
+overlay	chrome://messenger/content/addressbook/addressbook.xul chrome://toggleWebComponents/content/button.xul
+
+# Sunbird
+overlay	chrome://calendar/content/calendar.xul chrome://toggleWebComponents/content/button.xul

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css"
+  href="chrome://toggleWebComponents/content/button.css"?>
+
+<!DOCTYPE overlay >
+<overlay id="toggleWebComponents-overlay"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/javascript"
+  src="chrome://toggleWebComponents/content/button.js"/>
+
+<!-- Firefox -->
+<toolbarpalette id="BrowserToolbarPalette">
+  <toolbarbutton id="buttonToggleWebComponents"/>
+  </toolbarpalette>
+
+<!-- Thunderbird mail -->
+<toolbarpalette id="MailToolbarPalette">
+  <toolbarbutton id="buttonToggleWebComponents"/>
+  </toolbarpalette>
+
+<!-- Thunderbird compose -->
+<toolbarpalette id="MsgComposeToolbarPalette">
+  <toolbarbutton id="buttonToggleWebComponents"/>
+  </toolbarpalette>
+
+<!-- Thunderbird address book -->
+<toolbarpalette id="AddressBookToolbarPalette">
+  <toolbarbutton id="buttonToggleWebComponents"/>
+  </toolbarpalette>
+
+<!-- Sunbird -->
+<toolbarpalette id="calendarToolbarPalette">
+  <toolbarbutton id="buttonToggleWebComponents"/>
+  </toolbarpalette>
+
+
+<!-- button details -->
+<toolbarbutton id="buttonToggleWebComponents"
+  label="ToggleWebComponents"
+  tooltiptext="Toggle WebComponents' and CustomElements' enabled state"
+  oncommand="toggleWebComponents[1]()"
+	onload="toggleWebComponents[2]()"
+  class="toolbarbutton-2 chromeclass-toolbar-additional toggleWebComponents"
+	
+  />
+
+</overlay>

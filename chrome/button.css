@@ -1,0 +1,16 @@
+#buttonToggleWebComponents,
+#wrapper-custom-button-2
+  {list-style-image: url("chrome://toggleWebComponents/content/icon.png");}
+
+/* common style for all custom buttons */
+/*.toggleTabsBackground                  
+  {-moz-image-region: rect( 0px 24px 24px  0px);}
+
+.toggleTabsBackground:hover     
+  {-moz-image-region: rect(24px 24px 48px  0px);}
+
+[iconsize="small"] .toggleTabsBackground
+  {-moz-image-region: rect( 0px 40px 16px 24px);}
+
+[iconsize="small"] .toggleTabsBackground:hover
+  {-moz-image-region: rect(24px 40px 40px 24px);}*/
